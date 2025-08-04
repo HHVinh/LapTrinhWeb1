@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="01_Result.html" method="get" name="frmComboBox">
+        <fieldset>
+            <legend>Infomation</legend>
+
+            <label for="nameid">Name: </label>
+            <input type="text" name="txtName" id="nameid" placeholder="Input name"> <br>
+            
+            Food like:
+            <select name="cmbFood" id="">
+                <option value="pho">Pho - Vietnamese noodle</option>
+                <option value="chq">Checken soup</option>
+                <option value="dck" selected="selected">Duck subegg</option>
+                <option value="">Baby bird dry</option>
+            </select>
+            <br>
+            Image: <input type="file" name="fImage">
+            <br>
+            <input type="submit" value="Order">
+            <input type="reset">
+            <input type="button" value="Show message" onclick="alert('Hello class')">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="24880076_11.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="facebook">
+        <!-- Phần bên trái -->
+        <div class="gioiThieu">
+            <h3 class="gioiThieu moTa">Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn</h3>
+            <div class="gioiThieu image">
+                <img class="image facebook" src="images/facebook.jpg" alt="Ảnh kết nối với mọi người">
+            </div>
+        </div>
+        <!-- Phần bên phải -->
+        <div class="dangKy">
+            <!-- Header -->
+            <div class="dangKy header">
+                <h1>Đăng ký</h1>
+                <p>Luôn miễn phí.</p>
+            </div>
+            <!-- Body -->
+            <form action="01_Result.html">
+                <div>
+                    <!-- Nhập: Họ tên, sđt, mật khẩu -->
+                    <div class="dangKy nhapThongTin">
+                        <div class="dangKy nhapThongTin hoTen">
+                            <input type="text" name="ho" id="hoid" placeholder="Họ">
+                            <input type="text" name="ten" id="tenid" placeholder="Tên">
+                        </div>
+                        <div class="dangKy nhapThongTin soDienThoai">
+                            <input type="text" name="lienHe" id="lienHeid" placeholder="Số di động hoặc email">
+                        </div>
+                        <div class="dangKy nhapThongTin matKhau">
+                            <input type="password" name="matKhau" id="matKhauid" placeholder="Mật khẩu mới">
+                        </div>
+                    </div>
+                    <!-- Chọn: Ngày sinh, giới tính -->
+                    <div class="dangKy chonThongTin">
+                        <!-- Ngày sinh -->
+                        <div class="dangKy ngaySinh">
+                            <span>Ngày sinh</span>
+                            <div class="dangKy chonNgaySinh">
+                                <select name="ngay" id="ngaySinhid">
+                                    <option value="">27</option>
+                                </select>
+                                <select name="thang" id="thangSinhid">
+                                    <option value="">Tháng 12</option>
+                                </select>
+                                <select name="nam" id="namSinhid">
+                                    <option value="">1992</option>
+                                </select>
+                                <!-- Liên kết tới điều khoảnh ngày sinh -->
+                                <div class="dangKy cauHoi">
+                                    <a class="dangKy cauHoi" href="/">Tại sao tôi cần cung cấp ngày sinh của mình?</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Giới tính -->
+                        <div class="dangKy gioiTinh">
+                            <input type="radio" name="gioiTinh" id="gioiTinhid" value="Nu"><p>Nữ</p>
+                            <input type="radio" name="gioiTinh" id="gioiTinhid" value="Nam"><p>Nam</p>
+                        </div>                     
+                    </div>
+                    <!-- Liên kết tới điều khoảng và chính sách -->
+                    <div class="dangKy dieuKhoanVaChinhSach">
+                        <span>
+                            Bằng cách nhấp vào Tạo tài khoản, bạn đồng ý với 
+                            <a href="">Điều khoản</a>
+                            của chúng tôi và rằng bạn đã đọc
+                            <a href="">Chính sách dữ liệu</a>
+                            của chúng tôi, bao gồm 
+                            <a href="">Sử dụng cookie</a>
+                            . Bạn có thể nhận được thông báo qua SMS từ Facebook và có thể bỏ chọn bất kỳ lúc nào.
+                        </span>
+                    </div>
+                    <!-- Submit -->
+                    <div class="dangKy Submit">
+                        <button class="dangKy Submit--btn">
+                            <span class="Submit--text">Tạo tài khoản</span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </form>
+            <!-- Footer -->
+            <div class="Footer">
+                <span>
+                    <a href="">Tạo Trang</a>
+                    dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
