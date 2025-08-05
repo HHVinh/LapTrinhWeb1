@@ -1,0 +1,32 @@
+.header
+{
+    text-align: center;
+}
+.content
+{
+    display: flex;
+}
+
+.contentLeft
+{
+    width: 60%;
+    text-align: center;
+
+}
+
+.contentRight
+{
+    width: 40%;
+    background-color: rgb(232, 234, 235);
+}
+
+
+
+
+.footer
+{
+    text-decoration: none;
+    text-align: right;
+    padding-right: 5%;
+}
+
