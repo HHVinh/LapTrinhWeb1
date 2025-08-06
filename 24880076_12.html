@@ -27,32 +27,32 @@
 
         <!-- Bên phải -->
         <div class="contentRight">
-            <form action="01_Result.html">
+            <form class="form" action="01_Result.html">
 
                 <div class="name">
                     <span class="textBold">Name</span> <br>
-                    <input type="text" name="Firstname" placeholder="First">
-                    <input type="text" name="Lastname" placeholder="Last">
+                    <input class="name--first" type="text" name="Firstname" placeholder="First">
+                    <input class="name--last"type="text" name="Lastname" placeholder="Last">
                 </div>
 
                 <div class="userName">
                     <span class="textBold">Choose your username</span> <br>
-                    <input type="text" name="userName" placeholder="@gmail.com">
+                    <input class="userName--input gmail" type="text" name="userName" placeholder="@gmail.com">
                 </div>
 
                 <div class="password">
                     <span class="textBold">Create a password</span> <br>
-                    <input type="password" name="password">
+                    <input class="password--input" type="password" name="password">
                 </div>
 
                 <div class="password2">
                     <span class="textBold">Confirm a password</span> <br>
-                    <input type="password" name="confirmPassword">
+                    <input class="password2--input" type="password" name="confirmPassword">
                 </div>
 
                 <div class="birthday">
                     <span class="textBold">Birthday</span> <br>
-                    <select name="" id="">
+                    <select class="birthday--month" name="" id="">
                         <option value="">Month</option>
                         <option value="">January</option>
                         <option value="">February</option>
@@ -67,31 +67,34 @@
                         <option value="">November</option>
                         <option value="">December</option>
                     </select>
+
+                    <input class="birthday--day" type="text" name="day" placeholder="Day">
+                    <input class="birthday--year" type="text" name="day" placeholder="Year">
                 </div>
 
                 <div class="gender">
                     <span class="textBold">Gender</span> <br>
-                    <select name="" id="">
+                    <select class="gender--select" name="" id="">
                         <option value="">I am ...</option>
                     </select>
                 </div>
 
                 <div class="mobile">
                     <span class="textBold">Mobible phone</span> <br>
-                    <select name="" id="">
+                    <select class="mobile--image" name="" id="">
                         <option value="">Ảnh cờ VN</option>
-                        <input type="text" value="+84">
+                        <input class="mobile--number" type="text" value="+84">
                     </select>
                 </div>
 
                 <div class="currentEmail">
                     <span class="textBold">Your current email address</span> <br>
-                    <input type="text" name="currentEmail">
+                    <input class="currentEmail--input" type="text" name="currentEmail">
                 </div>
                 
                 <div class="location">
                     <span class="textBold">Location</span> <br>
-                    <select name="" id="">
+                    <select class="location--select" name="" id="">
                         <option value="">Vietnam (Việt Nam)</option>
                     </select>
                 </div>

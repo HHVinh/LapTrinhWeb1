@@ -20,8 +20,103 @@
     background-color: rgb(232, 234, 235);
 }
 
+.form
+{
+    margin: 20px;
+}
 
+.textBold
+{
+    font-weight: bold;
+}
 
+.form > div:not(:last-child) {
+  margin-bottom: 16px;  /* hoặc margin-right nếu xếp ngang */
+}
+
+[class$="--input"]
+{
+    margin: 5px 0 0 0;
+    padding: 0;
+    width: 295px;
+    height: 21px;
+}
+
+[class$="--select"]
+{
+    margin: 5px 0 0 0;
+    width: 299px;
+    height: 25px;
+}
+
+.name--first, .name--last
+{
+    margin: 5px 0 0 0;
+    padding: 0 0 0 5px;
+    width: 143px;
+    height: 21px;
+}
+
+.gmail
+{
+    margin: 5px 0 0 0;
+    text-align: right;
+    padding: 0 5px 0 0;
+    width: 290px;
+    height: 21px;
+}
+
+.birthday--month
+{
+    margin: 5px 0 0 0;
+    width: 130px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.birthday--day
+{
+    margin: 5px 5px 0 5px;
+    padding: 0 0 0 5px;
+    width: 53px;
+    height: 21px;
+}
+
+.birthday--year
+{
+    margin: 5px 0 0 0;
+    padding: 0 0 0 5px;
+    width: 90px;
+    height: 21px;
+}
+
+.gender--select
+{
+    font-weight: bold;
+}
+
+.mobile--image
+{
+    margin: 5px 0 0 0;
+    padding: 0 0 0 5px;
+    width: 50px;
+    height: 25px;
+    border-width: 1px 0 1px 1px;
+}
+
+.mobile--number
+{
+    margin: 5px 0 0 0;
+    padding: 0.7px 0 0 5px;
+    width: 245px;
+    height: 22px;
+    border-width: 1px 1px 1px 0;
+}
+
+.location--select
+{
+    font-weight: bold;
+}
 
 .footer
 {
