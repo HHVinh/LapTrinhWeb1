@@ -5,6 +5,12 @@
     height: 100vh;
 }
 
+.gioiThieu
+{
+    margin: 20px 50px;
+    width: 60%;
+}
+
 .gioiThieu.moTa
 {
     width: 75%;
@@ -24,6 +30,12 @@
     height: 200px;
 }
 
+.dangKyThongTin
+{
+    width: 340px;
+    margin: 20px 0;
+}
+
 .dangKy.header
 {
     margin: 0 0 5px 0;
@@ -38,16 +50,6 @@
 .dangKy.header p
 {
     font-family: Arial, sans-serif;
-}
-
-.gioiThieu
-{
-    width: 60%;
-}
-
-.dangKy
-{
-    width: 340px;
 }
 
 .dangKy.nhapThongTin
@@ -158,4 +160,6 @@
 {
     text-decoration: none;
     font-size: 13px;
+    font-weight: bold;
+    color: blue;
 }
