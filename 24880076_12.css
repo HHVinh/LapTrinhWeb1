@@ -1,10 +1,35 @@
 .header
 {
     text-align: center;
+    color: rgb(63, 63, 62);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 30px;
 }
 .content
 {
     display: flex;
+    color: rgb(160, 159, 158);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.contentLeft--top
+{
+    margin-bottom: 60px;
+}
+
+.textBig
+{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.textSmall
+{
+    margin-bottom: 25px;
 }
 
 .contentLeft
@@ -14,9 +39,19 @@
 
 }
 
+.image--iconApp
+{
+    width: 300px;
+}
+
+.image--laptop
+{
+    width: 300px;
+}
+
 .contentRight
 {
-    width: 40%;
+    width: 345px;
     background-color: rgb(232, 234, 235);
 }
 
@@ -28,10 +63,11 @@
 .textBold
 {
     font-weight: bold;
+    color: black;
 }
 
 .form > div:not(:last-child) {
-  margin-bottom: 16px;  /* hoặc margin-right nếu xếp ngang */
+  margin-bottom: 16px;
 }
 
 [class$="--input"]
@@ -53,7 +89,7 @@
 {
     margin: 5px 0 0 0;
     padding: 0 0 0 5px;
-    width: 143px;
+    width: 139px;
     height: 21px;
 }
 
@@ -78,7 +114,7 @@
 {
     margin: 5px 5px 0 5px;
     padding: 0 0 0 5px;
-    width: 53px;
+    width: 50px;
     height: 21px;
 }
 
@@ -86,7 +122,7 @@
 {
     margin: 5px 0 0 0;
     padding: 0 0 0 5px;
-    width: 90px;
+    width: 83px;
     height: 21px;
 }
 
@@ -95,33 +131,64 @@
     font-weight: bold;
 }
 
-.mobile--image
+.mobile span
 {
-    margin: 5px 0 0 0;
-    padding: 0 0 0 5px;
-    width: 50px;
-    height: 25px;
-    border-width: 1px 0 1px 1px;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
-.mobile--number
-{
-    margin: 5px 0 0 0;
-    padding: 0.7px 0 0 5px;
-    width: 245px;
-    height: 22px;
-    border-width: 1px 1px 1px 0;
+#phone {
+  width: 100%;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+.iti {
+  width: 300px;
+}
+
+.iti__flag-container {
+  width: 70px !important;
+  margin-left: 2px;
+}
+
+.iti__selected-flag {
+  padding: 0px !important;
 }
 
 .location--select
 {
     font-weight: bold;
+    background-color: rgb(232, 234, 235);
+}
+
+.submit
+{
+    text-align: right;
+    margin-right: 5px;
+}
+.submit--btn
+{
+    background-color: #3A8DEE;
+    height: 30px;
+    color: white;
+    border: 0;
+    border-radius: 2px;
 }
 
 .footer
 {
-    text-decoration: none;
+    margin: 10px;
     text-align: right;
-    padding-right: 5%;
+    margin-right: 240px;
+    color: rgb(160, 159, 158);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #396192;
 }
 
