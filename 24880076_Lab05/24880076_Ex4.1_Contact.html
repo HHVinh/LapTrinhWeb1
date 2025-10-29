@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        input {
+            margin-top: 5px;
+        }
+
+        textarea {
+            height: 100px;
+            margin-top: 5px;
+            text-align: left;
+
+        }
+
+        .btn_send {
+            width: 60px;
+            height: 25px;
+            margin-top: 5px;
+            align-self: flex-end;
+            background-color: rgb(14, 204, 204);
+            color: white;
+            border: transparent;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <input type="text" placeholder="Name" required
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter your name!')">
+            
+            <input type="email" placeholder="Email" required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter your email!')">
+            
+            <input type="text" placeholder="Subject" required
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter your subject!')">
+
+            <textarea placeholder="Message" required 
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Please enter your message!')"></textarea>
+            
+            <button type="submit" class="btn_send" >Send</button>
+        </form>
+    </div>
+
+</body>
+</html>

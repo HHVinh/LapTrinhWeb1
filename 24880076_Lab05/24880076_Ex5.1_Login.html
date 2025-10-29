@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center; 
+            background-color: #f5f5f5;
+        }
+
+        form {
+            width: 30%;
+            margin-top: 20vh;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        fieldset {
+            display: flex;
+            flex-direction: column;
+        }
+
+        legend {
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        input {
+            height: 20px;
+            margin-top: 8px;
+            padding: 0;
+        }
+
+        .btn_Login {
+            margin-top: 5px;
+            width: 100px;
+            height: 30px;
+            align-self: center;
+            background-color: rgb(97, 126, 222);
+            color: black;
+            border: solid;
+            cursor: pointer;
+        }
+        
+        .matKhau {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .luuMatKhau {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .quenMatKhau {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        p {
+            margin: 10px 0 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Thông tin đăng nhập</legend>
+            <input type="text" placeholder="Tên đăng nhập" required
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Hãy điền tên đăng nhập!')">
+
+            <input type="password" placeholder="Mật khẩu" required
+                oninput="this.setCustomValidity('')"
+                oninvalid="this.setCustomValidity('Hãy điền mật khẩu!')">
+
+            <div class="matKhau">
+                <div class="luuMatKhau">
+                    <input type="checkbox" id="luuMatKhau">
+                    <p>Lưu mật khẩu</p>
+                </div>
+
+                <div class="quenMatKhau">
+                    <p>Quên mật khẩu</p>
+                </div>
+            </div>
+
+            <button type="submit" class="btn_Login" >Đăng nhập</button>
+        </fieldset>
+    </form>
+</body>
+</html>
