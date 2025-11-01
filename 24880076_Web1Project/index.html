@@ -74,24 +74,65 @@
                             </li>
                             
                         </ul>
-                        <form class="d-flex my-2 my-lg-0">
+                        <form class="d-flex my-2 my-lg-0 border rounded-pill" id="formSearch">
                             <input
-                                class="form-control me-sm-2"
+                                class="form-control ms-3 border-0"
                                 type="text"
                                 placeholder="Search"
                             />
                             <button
-                                class="btn btn-outline-success my-2 my-sm-0"
+                                class="btn my-2 my-sm-0 border-0"
                                 type="submit"
                             >
-                                Search
+                                <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
                         </form>
                     </div>
                 </div>
             </nav>
-            
         </header>
+
+        <!-- Banner -->
+        <section class="container-fluid" id="banner">
+            <div class="container text-white text-center">
+                <div id="carousel-banner" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li
+                            data-bs-target="#carousel-banner"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="First slide"
+                        > <span>0</span> </li>
+                        <li
+                            data-bs-target="#carousel-banner"
+                            data-bs-slide-to="1"
+                            aria-label="Second slide"
+                        > <span>1</span> </li>
+                        <li
+                            data-bs-target="#carousel-banner"
+                            data-bs-slide-to="2"
+                            aria-label="Third slide"
+                        > <span>2</span> </li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <h1>Web Development <br> for everyone</h1>
+                            <a href="" class="btn text-bold text uppercase text-white rounded-4 px-4">
+                                See more
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>24880076<br>Huynh Huu Vinh</h1>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>Lap trinh web 1<br>DTTX - Hoc ky 1 - Nam hoc 2025 - 2026</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <main></main>
         <footer>
             <!-- place footer here -->
