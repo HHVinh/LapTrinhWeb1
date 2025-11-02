@@ -96,3 +96,42 @@ h1 {
 #banner .carousel-indicators li.active span {
     background-color: var(--web1-gree);
 }
+
+/* Product */
+.readMore {
+    color: var(--web1-blue);
+    margin-top: -5px;
+}
+
+/* About Us */
+#aboutUs {
+    background-color: var(--web1-pink);
+
+}
+
+#formSignUp {
+    border-style: dashed !important;
+    border-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* News */
+#news .date{
+    background-color: var(--web1-gree);
+}
+
+/* Footer */
+footer {
+    background-image: url(../images/bg-footer.gif);
+}
+
+#menuFooter a {
+    color: white;
+    font-weight: bold;
+    font-family: 'Changa One', cursive;
+    display: block;
+    padding: 0 2rem;
+}
+
+#menuFooter a.active {
+    color: var(--web1-pink);
+}
