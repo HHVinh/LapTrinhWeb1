@@ -49,6 +49,11 @@ h1 {
     background-image: url('../images/bg-banner.gif');
 }
 
+#banner-small {
+    background-image: url('../images/bg-banner.gif');
+    padding: 5px;
+}
+
 #banner > div {
     background: url('../images/logo_bg.png') left top no-repeat,
                 url('../images/search_bg.png') right top no-repeat;
@@ -117,6 +122,8 @@ h1 {
 /* News */
 #news .date{
     background-color: var(--web1-gree);
+    width: 5rem;
+    padding: 1rem;
 }
 
 /* Footer */
