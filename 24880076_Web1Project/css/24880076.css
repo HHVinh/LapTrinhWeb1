@@ -108,6 +108,10 @@ h1 {
     margin-top: -5px;
 }
 
+.web1-text-blue {
+    color: var(--web1-blue);
+}
+
 /* About Us */
 #aboutUs {
     background-color: var(--web1-pink);
