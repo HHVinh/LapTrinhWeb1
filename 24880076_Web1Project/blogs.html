@@ -225,11 +225,12 @@
             {{#each data}}
             <div class="clearfix py-3">
                 <h3>{{name}}</h3>
-                <p>by {{author}} in <a href="#" onclick="loadBlogs('blogs/categies/{{category.id}}')">{{category.name}}</a> on {{formatDate date}}. <a href="#">Comments ({{comments.length}})</a></p>
+                <p>by {{author}} in <a href="#" onclick="loadBlogs('blogs/categies/{{category.id}}')">{{category.name}}</a> on {{formatDate date}}. <a href="#"
+                    onclick="loadBlogDetails('{{id}}', true)">Comments ({{comments.length}})</a></p>
                 <img src="{{thumbpath}}" alt="{{name}}" class="float-start me-3 border rounded-4">
                 <p class="text-black-50">{{summary}}</p>
                 <a href="#" class="btn btn-link readmore ps-0"
-                onclick="loadData('blog/{id}', )">Read more</a>
+                    onclick="loadBlogDetails('{{id}}')">Read more</a>
             </div>
             {{/each}}
 
@@ -262,6 +263,99 @@
             </ul>
         </script>
 
+        <script id="details-template" type="text/x-handlebars-template">
+            <h1>Blogs</h1>
+            {{#each data}}
+            <div>
+                <h3>{{name}}</h3>
+                <p class="text-black-50">by {{author}} in {{category.name}} on {{formatDate date}}. <a href="#comments">Comments ({{comments.length}})</a></p>
+                <img src="{{imagepath}}" alt="{{name}}" class="float-start me-3 rounded-4">
+                <div class="text-black-50">{{{description}}}</div>
+            </div>
+
+            <div class="py-3">
+                <h3>Leave your comments</h3>
+                <form action="#" method="post" class="text-black-50">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="mb-3">
+                                    <label for="name" class="form-label">Name (Required)</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="name"
+                                        id="name"
+                                        placeholder=""
+                                        required
+                                    />
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="email"
+                                        id="email"
+                                        placeholder=""
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                    />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="mb-3">
+                            <label for="" class="form-label"></label>
+                            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Enter your message" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check form-check-inline">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="agree"
+                                    name="agree"
+                                    value="1"
+                                    required
+                                />
+                                <label class="form-check-label" for="agree">Agree to terms and conditions</label>
+                            </div>                            
+                        </div>
+                        <div class="col text-end">
+                            <button
+                                type="submit"
+                                class="btn btn-link py-0 my-0"
+                            >
+                                Submit Comment
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <a name="comments"></a>
+            <div class="bg-dark text-white-50 p-2">
+                COMMENTS ({{comments.length}})
+            </div>
+
+            <div class="py-3 text-black-50">
+                {{#each comments}}
+                <div>
+                    <p>{{name}} - {{formatDate Date}}</p>
+                    <p>{{summary}}</p>
+                    <hr>
+                </div>
+                {{/each}}
+            </div>
+            {{/each}}
+        </script>
+
         <script>
             Handlebars.registerHelper('formatDate', function(date) {
                 let formatDate = new Date(date);
@@ -289,6 +383,13 @@
             }
             loadBlogs('blogs');
             loadData('blogs-categories', 'categories-template', 'blogs-categories')
+
+            async function loadBlogDetails(blogsId, gotoComments = false) {
+                await loadData(`blogs/${blogsId}`, 'details-template', 'blogs');
+                if (gotoComments) {
+                    window.location.href = "#comments";
+                }
+            }
         </script>
     </body>
 </html>
