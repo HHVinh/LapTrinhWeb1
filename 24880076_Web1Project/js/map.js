@@ -1,0 +1,39 @@
+var lonLat = [106.682830, 10.757800];
+
+var map = new ol.Map({
+    target: 'map',
+    layers: [
+        new ol.layer.Tile({
+            source: new ol.source.OSM()
+        })
+    ],
+    view: new ol.View({
+        center: ol.proj.fromLonLat(lonLat),
+        zoom: 15
+    })
+});
+
+// Marker
+var marker = new ol.Feature({
+    geometry: new ol.geom.Point(ol.proj.fromLonLat(lonLat))
+});
+
+marker.setStyle(
+    new ol.style.Style({
+        image: new ol.style.Icon({
+            anchor: [0.5, 1],
+            src: 'images/marker-icon.png',
+            crossOrigin: 'anonymous'
+        })
+    })
+);
+
+var vectorSource = new ol.source.Vector({
+    features: [marker]
+});
+
+var markerVectorLayer = new ol.layer.Vector({
+    source: vectorSource
+});
+
+map.addLayer(markerVectorLayer);
