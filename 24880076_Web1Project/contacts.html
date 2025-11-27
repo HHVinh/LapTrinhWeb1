@@ -138,7 +138,7 @@
                 <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium maiores repellat dolore vero quibusdam a id adipisci dolorem, provident nulla mollitia illo officiis fuga doloribus laborum quam, officia sint.</p>
                 <p class="text-black-50">Send an email. All fields with an * are requires</p>
 
-                <form action="#" method="post">
+                <form action="#" method="post" onsubmit="onSubmit(event)">
                     <div class="row">
                         <div class="col text-black-50">
                             <div class="mb-3">
@@ -196,9 +196,10 @@
                             >
                                 Send email to Us
                             </button>
-                            
                         </div>
-                        
+                    </div>
+
+                    <div id="responseMessage" class="text-danger text-center">
                     </div>
                 </form>
             </div>
@@ -307,5 +308,37 @@
 
         <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
         <script src="js/map.js"></script>
+
+        <head>
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LenHw4sAAAAAMlnHG0GvlLZNTT4Bxia6YCMPfxW"></script>
+            <!-- Your code -->
+            <script>
+                function onSubmit(event) {
+                    e.preventDefault();
+                    grecaptcha.enterprise.ready(function () {
+                        grecaptcha.enterprise.execute('6LenHw4sAAAAAMlnHG0GvlLZNTT4Bxia6YCMPfxW',
+                        {action: 'submit'}).then(async function(token) {
+                            let response = await fetch('verify.php', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'Accept': 'application/json'
+                                },
+                                body: JSON.stringify({'g-token': token})
+                            });
+                            if (response.status == 200) {
+                                sendEmail();
+                            }
+                            else {
+                                document.getElementById('responseMessage').innerHTML = 'Error: Can not verify RECAPTCHA';
+                            }
+                        });
+                    });
+                }
+                function sendEmail() {
+                    document.getElementById('responseMessage').innerHTML = 'OK';
+                }
+            </script>
+        </head>
     </body>
 </html>

@@ -1,0 +1,98 @@
+:root
+{
+    --Pink: #e38773;
+    --Black: #252525;
+}
+
+header
+{
+    min-height: 600px;
+    background: url("images/le-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+footer
+{
+    background: url("images/footer-bg.png");
+}
+
+.btn-cau2
+{
+    background-color: var(--Pink);
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+
+.btn-cau3
+{
+    background-color: var(--Black);
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    margin: 0 0 0 20px;
+    padding: 2px 0 0 0;
+}
+
+.btn-readMore
+{
+    border:solid ;
+    border-color: var(--Pink);
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    color: var(--Pink);
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+#cau2 img
+{
+    width: 100%;
+}
+
+#cau3
+{
+    min-height: 600px;
+}
+
+#cau3 img
+{
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cau3 form
+{
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 50%;
+    border-color: var(--Pink) !important;
+    border: solid;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.btn-primary
+{
+    border:solid;
+    width: 7rem;
+    height: 2rem;
+    font-weight: 700;
+    background-color: var(--Pink);
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
