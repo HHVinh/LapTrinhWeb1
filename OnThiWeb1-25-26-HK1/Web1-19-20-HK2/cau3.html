@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>24880076</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/24880076.css">
+    </head>
+
+    <body>
+        <header class="container-fluid">
+            <div class="tieuDe text-center py-3">
+                <h5 style="color: var(--Cam); font-weight: 600;">BAI THI CUOI KY MON LAP TRINH WEB1</h5>
+                <h1 class="text-white" style="font-weight: 100;">DTXT - HK2 -/2019-2020</h1>
+            </div>
+
+            <div class="lienKet py-3">
+                <a href="index.html" class="btn btn-Cau1"cl>CAU 1</a>
+                <a href="cau2.html" class="btn btn-Cau1">CAU 2</a>
+                <a href="cau3.html" class="btn btn-Cau1">CAU 3</a>
+            </div>
+        </header>
+        <main>
+            <div class="noiDungCau5 py-5" id="view">
+                <!-- <div class="hinh1Cau3">
+                    <div class="text-boxCau3 py-3">
+                        <h5 class="fw-bold">Slogan</h5>
+                        <h2 class="fw-light">Title</h2>
+                    </div>
+                    <img class="imgCau3" src="img/products-01.jpg" alt="">
+                </div> -->
+            </div>
+        </main>
+        <footer class="py-3">
+            <p>Copyright @ by 24880076 - Huynh Huu Vinh</p>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js" integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="vendor/data.js"></script>
+
+        <!-- KHÔNG CHẴN LẺ-->
+
+        <!-- <script id="template" type="text/x-handlebars-template">
+            {{#each data}}
+            <div class="hinh1Cau3">
+                    <div class="text-boxCau3 py-3">
+                        <h5 class="fw-bold">{{slogan}}</h5>
+                        <h2 class="fw-light">{{title}}</h2>
+                    </div>
+                    <img class="imgCau3" src="{{imagepath}}" alt="">
+                </div>
+            </div>
+            {{/each}}
+        </script>
+
+        <script>
+            let jsonData = {
+                data: getData()
+            };
+            let source = document.querySelector('#template').innerHTML;
+            let template = Handlebars.compile(source);
+            document.querySelector('#view').innerHTML = template(jsonData);
+
+            // Bắt sự kiện cho Read More
+            // document.querySelectorAll('.btn-outline-primary').forEach(item => {
+            //     item.addEventListener('click', (e) => {
+            //         let data = getOne(item.id)[0];
+            //         document.querySelector('#detailTitle').innerHTML = data.title;
+            //         document.querySelector('#detailImage').src = data.imagePath;
+            //         document.querySelector('#detailDescription').innerHTML = data.description;
+            //     });
+            // });
+        </script> -->
+
+
+        <!-- CHẴN LẺ CHO TEXT BOX-->
+        <script id="template" type="text/x-handlebars-template">
+            {{#each data}}
+                <div class="hinh1Cau3">
+                <!-- index chẵn: text bên phải -->
+                    {{#isEven @index}}
+                    <div class="text-boxCau3-even py-3">
+                        <h5 class="fw-bold">{{slogan}}</h5>
+                        <h2 class="fw-light">{{title}}</h2>
+                    </div>
+                    {{else}}
+                    <!-- index lẻ: text bên trái -->
+                    <div class="text-boxCau3-odd py-3">
+                        <h5 class="fw-bold">{{slogan}}</h5>
+                        <h2 class="fw-light">{{title}}</h2>
+                    </div>
+                    {{/isEven}}
+                    <img class="imgCau3" src="{{imagepath}}" alt="">
+                </div>
+            {{/each}}
+        </script>
+
+        <script>
+            // Helper kiểm tra số chẵn
+            Handlebars.registerHelper("isEven", function (value, options) {
+                return (value % 2 === 0) ? options.fn(this) : options.inverse(this);
+            });
+
+            let jsonData = { data: getData() };
+            let source = document.querySelector('#template').innerHTML;
+            let template = Handlebars.compile(source);
+            document.querySelector('#view').innerHTML = template(jsonData);
+        </script>
+
+    </body>
+</html>

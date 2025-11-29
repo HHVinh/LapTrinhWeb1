@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>24880076</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!-- Include Bootstrap Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/24880076.css">
+    </head>
+
+    <body>
+        <header class="container-fluid py-3 bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 text-center">
+                            <h4 class="text-white fw-bold"><i class="bi bi-images"></i> BAI THI CUOI KY MON WEB1</h4>
+                        </div>
+
+                        <div class="col-6 text-center">
+                            <a href="cau1.html" class="btn btn-header">Cau 1</a>
+                            <a href="cau2.html" class="btn btn-header">Cau 2</a>
+                            <a href="cau3.html" class="btn btn-header">Cau 3</a>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <main>
+            <div class="container-fluid py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="textbox-add text-center">
+                                <p class="m-0"><i class="bi bi-plus-circle-fill"></i> Thêm hình mới</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="textbox-delete text-center">
+                                <p class="m-0"><i class="bi bi-arrow-clockwise" style="color: green;"></i> Hiển thị danh sách mặc định</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid py-3">
+                <div class="container">
+                    <div class="row" id="view">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="py-2 bg-dark ">
+            <p class="text-white text-center m-0">24880076 - Huynh Huu Vinh</p>
+            <p class="text-white text-center m-0">Project Link: <a class="text-white text-center text-decoration-none" href="https://web1-24880076.vercel.app/">https://web1-24880076.vercel.app/</a></p>
+            <p class="text-white text-center m-0">Mo ta Project: Da lam video tu 1 den 21</p>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Handlebars và JS -->
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="24880076.js"></script>
+
+        <!-- Template Handlebars -->
+        <script id="image-template" type="text/x-handlebars-template">
+            <div class="row">
+                {{#each images}}
+                <div class="col-lg-3 col-md-2 clo-sm1 text-center">
+                    <img class="hinhAnh" src="{{download_url}}" alt="">
+                    <p class="m-0 mt-2">{{author}}</p>
+                    <div class="icon mt-2">
+                        <i class="bi bi-droplet-fill" style="color: gray; cursor: pointer;"></i>
+                        <i class="bi bi-arrow-clockwise" style="color: green; cursor: pointer;"></i>
+                        <i class="bi bi-trash-fill" style="color: red; cursor: pointer;"></i>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+
+        <!-- Thêm modal -->
+        <div class="modal fade" id="addImageModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Thêm hình mới</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="addImageForm">
+                            <div class="mb-3">
+                                <label for="imageUrl" class="form-label">URL hình ảnh</label>
+                                <input type="text" class="form-control" id="imageUrl" placeholder="Nhập URL hình ảnh">
+                            </div>
+                            <div class="mb-3">
+                                <label for="imageAuthor" class="form-label">Tên tác giả</label>
+                                <input type="text" class="form-control" id="imageAuthor" placeholder="Nhập tên tác giả" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Thêm</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Script -->
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="24880076.js"></script>
+    </body>
+</html>

@@ -1,0 +1,341 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 655,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "mN7NEAAAQBAJ",
+      "etag": "6oJ15Wb+DGM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mN7NEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Totto-chan bên cửa sổ",
+        "authors": ["Kuroyanagi Tetsuko", "StreetLib"],
+        "publisher": "NXB Văn Học",
+        "description": "Vừa vào lớp một được vài ngày, Totto-chan đã bị đuổi học!!! Không còn cách nào khác, mẹ đành đưa Totto-chan đến một ngôi trường mới, trường Tomoe. Đấy là một ngôi trường kỳ lạ, lớp học thì ở trong toa xe điện cũ, học sinh thì được thỏa thích thay đổi chỗ ngồi mỗi ngày, muốn học môn nào trước cũng được, chẳng những thế, khi đã học hết bài, các bạn còn được cô giáo cho đi dạo. Đặc biệt hơn ở đó còn có một thầy hiệu trưởng có thể chăm chú lắng nghe Totto-chan kể chuyện suốt bốn tiếng đồng hồ! Chính nhờ ngôi trường đó, một Totto-chan hiếu động, cá biệt đã thu nhận được những điều vô cùng quý giá để lớn lên thành một con người hoàn thiện, mạnh mẽ. Totto-chan bên cửa sổ, là cuốn sách gối đầu giường của nhiều thế hệ trẻ em trên toàn thế giới suốt ba mươi năm nay. Sau khi xuất bản lần đầu vào năm 1981, cuốn sách đã gây được tiếng vang lớn không chỉ ở Nhật Bản mà còn trên toàn thế giới. Tính đến năm 2001, tổng số bản sách bán ra ở Nhật đã lên đến 9,3 triệu bản, trở thành một trong những cuốn sách bán chạy nhất trong lịch sử ngành xuất bản nước này. Cuốn sách đã được dịch ra 33 thứ tiếng khác nhau, như Anh, Pháp, Đức, Hàn Quốc, Trung Quốc… Khi bản tiếng Anh của Totto-chan được xuất bản tại Mỹ, tờ New York Times đã đăng liền hai bài giới thiệu trọn trang, một “vinh dự” hầu như không tác phẩm nào có được. Kuroyanagi Tetsuko là nhà văn thiếu nhi, đồng thời là một diễn viên và người dẫn chương trình truyền hình rất nổi tiếng ở Nhật Bản. Bà là người sáng lập ra quỹ Totto Foundation, được đặt tên dựa theo cô bé Totto-chan trong cuốn sách nổi tiếng nhất của bà. Quỹ Totto Foundation đào tạo các diễn viên điếc một cách chuyên nghiệp, nhằm hiện thực hóa ý tưởng mang hát kịch đến với những người điếc của Kuroyanagi. Năm 1984, bà được bổ nhiệm làm Đại sứ Thiện chí của Quỹ Nhi đồng Liên hiệp quốc, và là người châu Á đầu tiên ở vị trí này. Trong những năm cuối thập kỉ 80 và thập kỉ 90, bà đã đến thăm rất nhiều quốc gia đang phát triển ở châu Á và châu Phi để làm từ thiện và thực hiện các nhiệm vụ thiện chí, giúp đỡ trẻ em đang phải chịu cảnh thiên tai và chiến tranh, đồng thời nâng cao sự chú ý của quốc tế đối với trẻ em ở những nước nghèo. Kuroyanagi quyên góp được hơn 20 triệu đô cho các chương trình của UNICEF mà bà có tham gia hoạt động qua các chiến dịch quyên góp trên truyền hình. Bà cũng ủng hộ tiền bản quyền của cuốn sách Totto-chan cho UNICEF. Năm 1997, Kuroyanagi xuất bản cuốn sách Những đứa trẻ của Totto-chan, dựa trên những trải nghiệm khi bà làm Đại sứ Thiện chí của UNICEF từ năm 1984 đến năm 1996. Ngoài ra, Kuroyanagi còn là Giám đốc khu vực Nhật Bản của quỹ Bảo tồn Thiên nhiên Thế giới (WWF). Với những thành tựu trong lĩnh vực truyền thông và truyền hình, Kuroyanagi đã giành giải thưởng Japanese Cultural Broadcasting, được coi là niềm vinh dự cao nhất trong giới truyền hình Nhật Bản. Sau đó, bà đã được đề cử 14 lần cho danh hiệu nhân vật truyền hình được yêu thích nhất Nhật Bản. Năm 2000, Kuroyanagi là người đầu tiên nhận giải Global Leadership for Children được thành lập bởi UNICEF nhân kỉ niệm 10 năm ngày Hội nghị Thượng đỉnh Thế giới về Trẻ em năm 1990.\u200b",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 268,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mN7NEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/chan-1.jpeg"
+        },
+        "language": "vi",
+        "previewLink": "http://books.google.com.vn/books?id=mN7NEAAAQBAJ&pg=PT110&dq=chan&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=mN7NEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mN7NEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 32550,
+          "currencyCode": "VND"
+        },
+        "retailPrice": {
+          "amount": 32550,
+          "currencyCode": "VND"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=mN7NEAAAQBAJ&rdid=book-mN7NEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 32550000000,
+              "currencyCode": "VND"
+            },
+            "retailPrice": {
+              "amountInMicros": 32550000000,
+              "currencyCode": "VND"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Totto_chan_b%C3%AAn_c%E1%BB%ADa_s%E1%BB%95-sample-pdf.acsm?id=mN7NEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mN7NEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003echan\u003c/b\u003e và các bạn mới chỉ học lớp Một nên còn nhỏ lắm, nhưng Takahashi-kun còn nhỏ hơn, dù là con trai, cả \u003cb\u003echân\u003c/b\u003e lẫn ... \u003cb\u003echan\u003c/b\u003e nói với Miyo-\u003cb\u003echan\u003c/b\u003e và Sakko-\u003cb\u003echan\u003c/b\u003e: “Bọn mình thử nói chuyện với bạn ý đi,” rồi tiến lại gần Takahashi-kun. Khi&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EmNGAgAAQBAJ",
+      "etag": "jp7xY8fa6pc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EmNGAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Ke Hoach Chan Hung NHAN LOAI",
+        "authors": ["Minh Thanh"],
+        "publisher": "Lulu.com",
+        "publishedDate": "2009-11-04",
+        "description": "Tac gia GBP neu ra cac va n A'a caa loai ngAEdegreea i va cac ka ? hoa ch cha n hAEdegreeng nhan loa i nha m A'em la i an ninh va hoa bA--nh cho tha ? gia i da a tren na n ta GBPng ta bi va ba GBPo va sa sa'ng caa A'a(c)c Pha -t. Cac chinh trai gia hay Lien Hia p Qua'c mua'n cha n hAEdegreeng nhan loa i trAEdegreea c ha 't ca n pha GBPi cha n hAEdegreeng chinh ba GBPn than mA--nh, khong gA-- khac hAE n la pha GBPi cha n hAEdegreeng A'a o A'a(c)c, tha c ta -p tA--nh thAEdegreeAE ng va na Zm ba Zt hia n ta i, la y sa buong ba, ca i ma, la Zng nghe, ai ngaZ va ba t ba o A'a'ng lam phong thai chinh trai caa mA--nh. NgAEdegreea i lam sa(c) ma ng hoa bA--nh trAEdegreea c ha 't pha GBPi la ngAEdegreea i hoa bA--nh ta suy nghA(c), la i noi va hanh A'a'ng, na ?u lam A'AEdegreeaGBPc nhAEdegree va -y thA-- ma i mong nhan loa i co hoa bA--nh. Khi tam A'a hoa bA--nh thA-- tha ? gia i hoa bA--nh.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780557111695"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0557111692"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 430,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=EmNGAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/chan-2.jpeg"
+        },
+        "language": "vi",
+        "previewLink": "http://books.google.com.vn/books?id=EmNGAgAAQBAJ&pg=PA324&dq=chan&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.vn/books?id=EmNGAgAAQBAJ&dq=chan&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ke_Hoach_Chan_Hung_NHAN_LOAI.html?hl=&id=EmNGAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Ke_Hoach_Chan_Hung_NHAN_LOAI-sample-pdf.acsm?id=EmNGAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EmNGAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003echấn\u003c/b\u003e , không phải dấu hiệu của động đất hay núi lửa mà các cơn địa \u003cb\u003echấn\u003c/b\u003e này đang được Liên Hiệp Quốc nổ lực giải quyết . Địa \u003cb\u003echấn\u003c/b\u003e chính trị , địa \u003cb\u003echấn\u003c/b\u003e kinh tế , địa \u003cb\u003echấn\u003c/b\u003e dịch bệnh , địa \u003cb\u003echấn\u003c/b\u003e nghèo đói ... làm con người dẫm trên chông&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-PrxCwAAQBAJ",
+      "etag": "OI07em+U4uI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-PrxCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Tieu thuyet - Hau cung chan hoan chuyen - Tap 2",
+        "authors": ["Lian Zi Liu"],
+        "publisher": "MintRight Inc",
+        "publishedDate": "2015-12-25",
+        "description": "Empresses in the palace is about the inner conflicts of the harem of classic China. Zhen Huan is an intelligent, beautiful, and wise girl. So, she was extraordinarily well-loved by the Emperor which brought her the jealousy of the imperial harem. Zhen Huan eventually realizes the harshness and cruelty in the palace, and begins to learn how to survive on her own.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786049367908"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "6049367906"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 467,
+        "printType": "BOOK",
+        "categories": ["Family & Relationships"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.10.8.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-PrxCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/chan-3.jpeg"
+        },
+        "language": "vi",
+        "previewLink": "http://books.google.com.vn/books?id=-PrxCwAAQBAJ&pg=PT52&dq=chan&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=-PrxCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-PrxCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 239828,
+          "currencyCode": "VND"
+        },
+        "retailPrice": {
+          "amount": 163083,
+          "currencyCode": "VND"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=-PrxCwAAQBAJ&rdid=book--PrxCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 239828000000,
+              "currencyCode": "VND"
+            },
+            "retailPrice": {
+              "amountInMicros": 163083000000,
+              "currencyCode": "VND"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Tieu_thuyet_Hau_cung_chan_hoan_chuyen_Ta-sample-epub.acsm?id=-PrxCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-PrxCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eChân\u003c/b\u003e Tiệp dư là có người đến xin bột, không còn ai khác sao?” Nội giám không dám \u003cb\u003echần\u003c/b\u003e chừ, đáp ngay: “Vâng ạ!” Ánh mắt của Huyền Lăng như hữu ý như vô tình lướt qua mặt tôi rồi bình thản lên tiếng: “Như thế thì cũng không thể chứng minh là&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ifrxCwAAQBAJ",
+      "etag": "ZHSLKaEyoGw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ifrxCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Tieu thuyet - Hau cung chan hoan chuyen - Tap 1",
+        "authors": ["Lian Zi Liu"],
+        "publisher": "MintRight Inc",
+        "publishedDate": "2015-12-25",
+        "description": "Empresses in the palace is about the inner conflicts of the harem of classic China. Zhen Huan is an intelligent, beautiful, and wise girl. So, she was extraordinarily well-loved by the Emperor which brought her the jealousy of the imperial harem. Zhen Huan eventually realizes the harshness and cruelty in the palace, and begins to learn how to survive on her own.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786049367892"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "6049367892"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 491,
+        "printType": "BOOK",
+        "categories": ["Family & Relationships"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.8.8.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ifrxCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/chan-4.jpeg"
+        },
+        "language": "vi",
+        "previewLink": "http://books.google.com.vn/books?id=ifrxCwAAQBAJ&pg=PT387&dq=chan&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ifrxCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ifrxCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 239828,
+          "currencyCode": "VND"
+        },
+        "retailPrice": {
+          "amount": 163083,
+          "currencyCode": "VND"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ifrxCwAAQBAJ&rdid=book-ifrxCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 239828000000,
+              "currencyCode": "VND"
+            },
+            "retailPrice": {
+              "amountInMicros": 163083000000,
+              "currencyCode": "VND"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Tieu_thuyet_Hau_cung_chan_hoan_chuyen_Ta-sample-epub.acsm?id=ifrxCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ifrxCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003echân\u003c/b\u003e trần của tôi, lúc này mới phát hiện thấy trong lúc hoảng loạn, mình quên chưa mang hài. Đôi \u003cb\u003echân\u003c/b\u003e trần trắng muốt đặt trên lớp cỏ xanh biếc, như đóa sen trắng tinh khôi nở rộ, mặc cho y tha hồ ngắm nghía, khen ngợi. Tôi vừa sốt ruột&nbsp;..."
+      }
+    }
+  ]
+}

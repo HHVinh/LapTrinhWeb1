@@ -1,0 +1,131 @@
+:root{
+    --Nau: rgba(47,23,15,0.9);
+    --Cam: #E6A756;
+}
+
+body
+{
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover; /* Hình ảnh hiển thị đủ trong vùng mong muốn */
+    background-position: center; /* căn ảnh đúng vị trí chính giữa */
+}
+
+footer
+{   
+    position: static;
+    color: white;
+    background-color: var(--Nau);
+    text-align: center;
+}
+
+footer p
+{   
+    margin: 0;
+}
+
+.lienKet
+{
+    background-color: var(--Nau);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.lienKet a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.noiDungCau1
+{
+    position: relative;
+    display: block;
+}
+
+.hinhCau1
+{
+
+    display: block;
+    width: 90%;
+    justify-self: center;
+}
+
+.text-box
+{   
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    justify-self: center;
+    transform: translateY(-40%);
+}
+
+.noiDungCau2
+{
+    background-color: var(--Cam);
+}
+
+.formCau2
+{   
+    justify-self: center;
+    border: solid;
+    border-color: #b06d16;
+    background-color: beige;
+    width: 90%;
+    height: 100%;
+}
+
+
+.btn-primary
+{
+    height: 70px;
+    width: 180px;
+    background-color: var(--Cam);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+}
+
+.hinh1Cau3
+{
+    position: relative;
+}
+
+.text-boxCau3-even
+{   
+
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30%;
+    justify-self: center;
+    transform: translate(80%, 40%);
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.text-boxCau3-odd
+{   
+
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30%;
+    justify-self: center;
+    transform: translate(-80%, 40%);
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.imgCau3
+{
+    height: 35%;
+    width: 50%;
+    display: block;
+    justify-self: center;
+    border-radius: 4px;
+}

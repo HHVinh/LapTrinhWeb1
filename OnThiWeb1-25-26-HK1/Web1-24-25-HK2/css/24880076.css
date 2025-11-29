@@ -1,0 +1,376 @@
+/* :root{
+    
+}
+
+.btn-header
+{
+    text-decoration: none;
+    color: white;
+}
+
+.hinhAnh
+{
+width: 100%;        
+height: auto;
+max-width: 200px;
+border-radius: 5px;
+
+.textbox-add
+{
+    border: solid;
+    border-radius: 4px;
+    color: blue;
+    border-color: blue;
+    margin: 0;
+}
+
+.textbox-delete
+{
+    border: solid;
+    border-radius: 4px;
+    color: red;
+    border-color: red;
+    margin: 0;
+} */
+
+:root{
+    --primary-color: #007bff;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --dark-color: #343a40;
+}
+
+/* Header */
+.btn-header
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-header:hover
+{
+    background-color: white;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+/* Hình ảnh */
+.hinhAnh
+{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Textbox */
+.textbox-add
+{
+    border: solid;
+    border-radius: 4px;
+    color: blue;
+    border-color: blue;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.textbox-add:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.textbox-delete
+{
+    border: solid;
+    border-radius: 4px;
+    color: red;
+    border-color: red;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.textbox-delete:hover
+{
+    background-color: red;
+    color: white;
+}
+
+/* ===== CSS CHO CÂU 2 & 3 ===== */
+
+/* Container hình ảnh */
+.image-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Item hình ảnh */
+.image-item {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Hình ảnh trong câu 2 & 3 */
+.image-item .hinhAnh {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Tên tác giả */
+.image-item p {
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+/* Icons chức năng */
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.icon i:hover {
+    transform: scale(1.2);
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* Grayscale icon */
+.bi-droplet-fill {
+    color: #6c757d !important;
+}
+
+.bi-droplet-fill:hover {
+    color: #495057 !important;
+}
+
+/* Refresh icon */
+.bi-arrow-clockwise {
+    color: var(--success-color) !important;
+}
+
+.bi-arrow-clockwise:hover {
+    color: #218838 !important;
+}
+
+/* Trash icon */
+.bi-trash-fill {
+    color: var(--danger-color) !important;
+}
+
+.bi-trash-fill:hover {
+    color: #c82333 !important;
+}
+
+/* Modal styles */
+.modal-content {
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-header {
+    background-color: var(--dark-color);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+
+.form-label {
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Grid system cho hình ảnh */
+/* MSSV chẵn: 4 cột, MSSV lẻ: 3 cột */
+/* Vì MSSV 24880076 là chẵn nên dùng 4 cột */
+.col-image {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .col-image {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-image {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .icon {
+        gap: 10px;
+    }
+    
+    .icon i {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .image-item .hinhAnh {
+        height: 150px;
+    }
+}
+
+/* Loading state */
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Error state */
+.error-message {
+    color: var(--danger-color);
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+/* Success state */
+.success-message {
+    color: var(--success-color);
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+
+footer a {
+    color: #17a2b8 !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #138496 !important;
+    text-decoration: underline;
+}
+
+/* Active menu highlight */
+.btn-header.active {
+    background-color: white;
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+/* Button styles trong modal */
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Animation cho hình ảnh */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.image-item {
+    animation: fadeIn 0.5s ease;
+}
+
+/* Filter effects */
+.grayscale-effect {
+    filter: grayscale(100%);
+}
+
+.blur-effect {
+    filter: blur(3px);
+}
+
+.normal-effect {
+    filter: none;
+}

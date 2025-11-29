@@ -1,0 +1,29 @@
+:root{
+    
+}
+
+.btn-primary
+{
+    width: 100%;
+}
+
+#search
+
+{
+    width: 100%;
+}
+
+.hinhAnh img
+{
+    width: 300px;
+    border-radius: 4px;
+}
+
+.textbox
+{
+    border: solid;
+    border-width: 1px;
+    width: 300px;
+    border-color: rgb(175, 170, 170);
+}
+

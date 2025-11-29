@@ -1,0 +1,438 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 692,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "X_igJKO7y5kC",
+      "etag": "qKh9heDY3Vc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/X_igJKO7y5kC",
+      "volumeInfo": {
+        "title": "Le Corbusier",
+        "subtitle": "Elements of a Synthesis",
+        "authors": ["Stanislaus von Moos"],
+        "publisher": "010 Publishers",
+        "publishedDate": "2009",
+        "description": "Originally published in Germany in 1968, this first comprehensive and critical survey of Le Corbusier's life and work soon became the standard text on the architect and polymath. French, Spanish, English, Japanese and Korean editions followed, but the book has now been out of print for almost two decades. In the meantime, Le Corbusier's archives in Paris have become available for research, resulting in an avalanche of scholarship. Von Moos' critical take and the basic criteria by which the subject is organized and historicized remain surprisingly pertinent in the context of this recent jungle of Corbusier studies. This new, completely revised edition is based on the 1979 version published in English by the MIT Press but offers a substantially updated body of illustrations. Each of the seven chapters is supplemented by a critical survey of recent scholarship on the respective issues. An updated edition of this acclaimed book, an essential read for students of architecture and architectural history.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789064506420"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9064506426"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 370,
+        "printType": "BOOK",
+        "categories": ["Architecture"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=X_igJKO7y5kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/le-1.jpeg"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.vn/books?id=X_igJKO7y5kC&pg=PA338&dq=le&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.vn/books?id=X_igJKO7y5kC&dq=le&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Le_Corbusier.html?hl=&id=X_igJKO7y5kC"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Le_Corbusier-sample-pdf.acsm?id=X_igJKO7y5kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=X_igJKO7y5kC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eLe\u003c/b\u003e Corbusier. L&#39;unité d&#39;habitation de Marseille et les autres unités d&#39;habitation à Rezé-les-Nantes, Berlin, Briey en Forêt etFirminy (Paris/Basle, 2004). 42 See La dépèche du Midi, 28 September 1952. 43 A few years later, now as mayor&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3u4-DwAAQBAJ",
+      "etag": "sXVFpN22GL8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3u4-DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Luu-Binh And Duong-Le",
+        "authors": ["Dino Lingo"],
+        "publisher": "Dino Lingo",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 25,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3u4-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/le-2.jpeg"
+        },
+        "language": "vi",
+        "previewLink": "http://books.google.com.vn/books?id=3u4-DwAAQBAJ&pg=PT13&dq=le&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=3u4-DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3u4-DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 126773,
+          "currencyCode": "VND"
+        },
+        "retailPrice": {
+          "amount": 95080,
+          "currencyCode": "VND"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=3u4-DwAAQBAJ&rdid=book-3u4-DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 126773000000,
+              "currencyCode": "VND"
+            },
+            "retailPrice": {
+              "amountInMicros": 95080000000,
+              "currencyCode": "VND"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Luu_Binh_And_Duong_Le-sample-epub.acsm?id=3u4-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Luu_Binh_And_Duong_Le-sample-pdf.acsm?id=3u4-DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3u4-DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Dino Lingo. Lưu Bình đã đến thăm nhà của người bạn của Dương \u003cb\u003eLễ\u003c/b\u003e nhờ sự giúp đỡ. Nhưng Dương \u003cb\u003eLẽ\u003c/b\u003e đã nói rằng: &quot;Bạn vừa lười biếng lại còn nghèo nên mình sẽ không giúp bạn được. &quot; Lưu Bình đã rất ngạc nhiên và buồn. Anh cũng."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9S4prpQY1OYC",
+      "etag": "7JDTBSMPfb4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9S4prpQY1OYC",
+      "volumeInfo": {
+        "title": "Le Corbusier",
+        "subtitle": "Le Couvent Sainte Marie de La Tourette",
+        "authors": ["Philippe Potié"],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2001",
+        "description": "A guide to the convent Sainte Marie de la Tourette near Lyon: a masterpiece of modern ecclesiastical architecture.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "3764362987"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9783764362980"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 142,
+        "printType": "BOOK",
+        "categories": ["Architecture"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9S4prpQY1OYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/le-3.jpeg"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.vn/books?id=9S4prpQY1OYC&pg=PA52&dq=le&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.vn/books?id=9S4prpQY1OYC&dq=le&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Le_Corbusier.html?hl=&id=9S4prpQY1OYC"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Le_Corbusier-sample-pdf.acsm?id=9S4prpQY1OYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9S4prpQY1OYC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eLe\u003c/b\u003e Couvent Sainte Marie de La Tourette Philippe Potié. as Egyptian pylons or ancient city walls ; even \u003cb\u003eLe\u003c/b\u003e Corbusier himself com- pared it with an Assyrian fortress . It is certainly true that the impregnable concrete wall sets a&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Kwdr0Ws3KjwC",
+      "etag": "NX/J8w71kYI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Kwdr0Ws3KjwC",
+      "volumeInfo": {
+        "title": "The Work of Jacques Le Goff and the Challenges of Medieval History",
+        "authors": ["Miri Rubin"],
+        "publisher": "Boydell & Brewer",
+        "publishedDate": "1997",
+        "description": "Essays on medieval history inspired by, and engaging with, the work of Jacques Le Goff. The essays in this volume arise from the proceedings of a conference held in 1994 to celebrate the life and work of the eminent French medievalist Jacques Le Goff. Set within thematic sections -popular religion and heresy, the body, royalty andits mystique, intellectuals in medieval society, and others -many of the challenges raised by Le Goff are reassessed and reapproached. There is an explicit historiographical focus in a section on the reception and influence of Le Goff, with particular reference to the Annales school of history with which he is strongly identified; the volume also indicates the problems which animate current research in medieval studies, especially in certain areas of social and cultural history. MIRI RUBIN is Professor of History, Queen Mary, University of London. Contributors: ALEXANDER MURRAY, PETER BILLER, ANDRÉ VAUCHEZ, R.I. MOORE, OTTO GERHARD OEXLE, LESTER K. LITTLE, WALTER SIMONS, ADELINE RUCQUOI, ALAIN BOUREAU, JEAN DUBABIN, WILLIAM CHESTER JORDAN, PETER LINEHAN, MIRI RUBIN, GABOR KLANICZAY, AARON GUREVICH, ROBIN BRIGGS, STUART CLARK",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0851156223"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780851156224"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 280,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.9.6.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Kwdr0Ws3KjwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/le-4.jpeg"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.vn/books?id=Kwdr0Ws3KjwC&pg=PA246&dq=le&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.vn/books?id=Kwdr0Ws3KjwC&dq=le&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Work_of_Jacques_Le_Goff_and_the_Chal.html?hl=&id=Kwdr0Ws3KjwC"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/The_Work_of_Jacques_Le_Goff_and_the_Chal-sample-pdf.acsm?id=Kwdr0Ws3KjwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Kwdr0Ws3KjwC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eLe\u003c/b\u003e Goff insists , to look for the reasons for this mental and religious development in the changing conditions of social and economic life . But it is possible to discuss the causes of intellectual transformations in relation to&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AuU8AAAAMAAJ",
+      "etag": "A3o/jVv4RtY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AuU8AAAAMAAJ",
+      "volumeInfo": {
+        "title": "Le Guide Musical",
+        "subtitle": "Revue Internationale de la Musique Et de Theâtres Lyriques",
+        "publishedDate": "1867",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015024142344"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 754,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.8.9.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AuU8AAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/le-5.jpeg"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.vn/books?id=AuU8AAAAMAAJ&pg=PA9&dq=le&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=AuU8AAAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AuU8AAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=AuU8AAAAMAAJ&rdid=book-AuU8AAAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.vn/books/download/Le_Guide_Musical.epub?id=AuU8AAAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.vn/books/download/Le_Guide_Musical.pdf?id=AuU8AAAAMAAJ&hl=&output=pdf&sig=ACfU3U1IagODgXjNcMNmlQMnNjyqVKN8jA&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AuU8AAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003ele\u003c/b\u003e répétons , en rendre responsable \u003cb\u003ele\u003c/b\u003e librettiste et non \u003cb\u003ele\u003c/b\u003e musicien , forcé de suivre \u003cb\u003ele\u003c/b\u003e programme qui lui était imposé . Aussi n&#39;est - il pas hors de doute que Vasco de Gama eût justifié musicalement au grand complet sa renommée&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GoX1VBvsJHQC",
+      "etag": "WNeQy8LjzMY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GoX1VBvsJHQC",
+      "volumeInfo": {
+        "title": "Bibliographie internationale sur le bilinguisme",
+        "subtitle": "avec index analytique sur microfiches",
+        "authors": [
+          "William Francis Mackey",
+          "Université Laval. Centre international de recherches sur le bilinguisme"
+        ],
+        "publisher": "Presses Université Laval",
+        "publishedDate": "1982",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2763769918"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782763769912"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 618,
+        "printType": "BOOK",
+        "categories": ["Language Arts & Disciplines"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.8.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GoX1VBvsJHQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "images/le-6.jpeg"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.vn/books?id=GoX1VBvsJHQC&pg=PA173&dq=le&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.vn/books?id=GoX1VBvsJHQC&dq=le&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Bibliographie_internationale_sur_le_bili.html?hl=&id=GoX1VBvsJHQC"
+      },
+      "saleInfo": {
+        "country": "VN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "VN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.vn/books/download/Bibliographie_internationale_sur_le_bili-sample-pdf.acsm?id=GoX1VBvsJHQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GoX1VBvsJHQC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eLE\u003c/b\u003e NORD - EST DE LA PROVINCE DE LIEGE ET \u003cb\u003eLE\u003c/b\u003e CANTON D&#39;EUPEN , TERRE BELGE FLAMANDE SUPERFICIELLEMENT ALLEMANDISEE ET ROMANISEE . ETUDE HISTORIQUE ET LINGUISTIQUE ( BRUGES : EXCELSIOR , 1932 ) . 5674 LANHAM , L. W. THE PROLIFERATION AND&nbsp;..."
+      }
+    }
+  ]
+}
