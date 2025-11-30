@@ -1,0 +1,812 @@
+[
+  {
+    "id": 12,
+    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=300&fit=crop",
+    "title": "Adaptive Faculty Toolkit",
+    "description": "Faculty learn to craft adaptive study kits, discussion guides, and grading rubrics with NotebookLM.",
+    "rating": 4.1,
+    "total_reviews": 318,
+    "total_hours": 5.6,
+    "total_lectures": 45,
+    "current_price": 209000,
+    "original_price": 489000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 6,
+    "level_id": 1,
+    "instructor": {
+      "id": 6,
+      "name": "Anton Voroniuk",
+      "bio": "Productivity and AI research specialist",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 22,
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+    "title": "Creator Sync Habitat",
+    "description": "Creators design multi-channel calendars as NotebookLM auto-builds briefs, captions, and prompts.",
+    "rating": 2.8,
+    "total_reviews": 77,
+    "total_hours": 2,
+    "total_lectures": 21,
+    "current_price": 139000,
+    "original_price": 299000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 7,
+    "level_id": 1,
+    "instructor": {
+      "id": 7,
+      "name": "Start-Tech Academy",
+      "bio": "Leading technology education platform",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 19,
+    "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400&h=300&fit=crop",
+    "title": "Insight Garden Daily",
+    "description": "Stand up a daily NotebookLM ritual for curating insights, blockers, and priority cues.",
+    "rating": 3.1,
+    "total_reviews": 143,
+    "total_hours": 1.6,
+    "total_lectures": 18,
+    "current_price": 149000,
+    "original_price": 309000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 3,
+    "level_id": 1,
+    "instructor": {
+      "id": 3,
+      "name": "Tracey Barron",
+      "bio": "Specialist in artificial intelligence and content creation",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 15,
+    "image_url": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=400&h=300&fit=crop",
+    "title": "Client Pulse Delivery Lab",
+    "description": "Consultants package NotebookLM findings into briefs, infographics, and stakeholder Q&A packs.",
+    "rating": 3.4,
+    "total_reviews": 121,
+    "total_hours": 3.9,
+    "total_lectures": 33,
+    "current_price": 199000,
+    "original_price": 429000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 7,
+    "level_id": 1,
+    "instructor": {
+      "id": 7,
+      "name": "Start-Tech Academy",
+      "bio": "Leading technology education platform",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 7,
+    "image_url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop",
+    "title": "NotebookLM Rapid Ops",
+    "description": "Spin up rapid operational playbooks, retros, and decision journals using AI-sourced evidence packs.",
+    "rating": 3.9,
+    "total_reviews": 154,
+    "total_hours": 2.1,
+    "total_lectures": 19,
+    "current_price": 179000,
+    "original_price": 379000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 7,
+    "level_id": 1,
+    "instructor": {
+      "id": 7,
+      "name": "Start-Tech Academy",
+      "bio": "Leading technology education platform",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 6,
+    "image_url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop",
+    "title": "Insight Relay Systems",
+    "description": "Build cross-team briefing relays where NotebookLM drafts memos, timelines, and executive summaries.",
+    "rating": 4.7,
+    "total_reviews": 143,
+    "total_hours": 4.3,
+    "total_lectures": 41,
+    "current_price": 309000,
+    "original_price": 659000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 6,
+    "level_id": 1,
+    "instructor": {
+      "id": 6,
+      "name": "Anton Voroniuk",
+      "bio": "Productivity and AI research specialist",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 5,
+    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
+    "title": "Prompt Cartographer Studio",
+    "description": "Map reusable NotebookLM prompt stacks for research, content strategy, and lightweight automation.",
+    "rating": 4,
+    "total_reviews": 168,
+    "total_hours": 3.2,
+    "total_lectures": 34,
+    "current_price": 229000,
+    "original_price": 429000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 5,
+    "level_id": 1,
+    "instructor": {
+      "id": 5,
+      "name": "Gopaluni Sai Karthik",
+      "bio": "Google NotebookLM and AI tools expert",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 4,
+    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    "title": "Atlas Forge Masterclass",
+    "description": "Design portfolio-ready learning atlases with AI topic trees, podcast scripts, and stakeholder briefs.",
+    "rating": 3.5,
+    "total_reviews": 211,
+    "total_hours": 7.5,
+    "total_lectures": 68,
+    "current_price": 259000,
+    "original_price": 709000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 4,
+    "level_id": 1,
+    "instructor": {
+      "id": 4,
+      "name": "DFA Course Academy",
+      "bio": "Professional course creation academy",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 1,
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop",
+    "title": "Quantum Canvas Sprint 2025",
+    "description": "Hands-on labs blending NotebookLM, Gemini prompts, and custom datasets to architect research canvases.",
+    "rating": 4.6,
+    "total_reviews": 524,
+    "total_hours": 5,
+    "total_lectures": 48,
+    "current_price": 199000,
+    "original_price": 499000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 1,
+    "level_id": 1,
+    "instructor": {
+      "id": 1,
+      "name": "Yash Thakker",
+      "bio": "Expert in AI-powered research and document analysis",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 1,
+      "name": "All Levels",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 26,
+    "image_url": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=400&h=300&fit=crop",
+    "title": "NotebookLM AI X-Ray",
+    "description": "Audit AI-sourced insights, flag hallucinations, and repair datasets with NotebookLM diagnostics.",
+    "rating": 2.4,
+    "total_reviews": 119,
+    "total_hours": 2.2,
+    "total_lectures": 20,
+    "current_price": 129000,
+    "original_price": 309000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 5,
+    "level_id": 2,
+    "instructor": {
+      "id": 5,
+      "name": "Gopaluni Sai Karthik",
+      "bio": "Google NotebookLM and AI tools expert",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 2,
+      "name": "Beginner",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 24,
+    "image_url": "https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=400&h=300&fit=crop",
+    "title": "NotebookLM Playbook Clinic",
+    "description": "Refine customer-facing playbooks with tone checks, redlines, and NotebookLM callouts.",
+    "rating": 3.3,
+    "total_reviews": 201,
+    "total_hours": 3.3,
+    "total_lectures": 29,
+    "current_price": 189000,
+    "original_price": 419000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 2,
+    "level_id": 2,
+    "instructor": {
+      "id": 2,
+      "name": "Scott Duffy",
+      "bio": "Renowned instructor with over 1 million students worldwide",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 2,
+      "name": "Beginner",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 16,
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+    "title": "Micro Shift Productivity Kit",
+    "description": "Install 15-minute NotebookLM rituals that shrink research hours and keep teams aligned daily.",
+    "rating": 2.6,
+    "total_reviews": 87,
+    "total_hours": 1.1,
+    "total_lectures": 12,
+    "current_price": 99000,
+    "original_price": 259000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 4,
+    "level_id": 2,
+    "instructor": {
+      "id": 4,
+      "name": "DFA Course Academy",
+      "bio": "Professional course creation academy",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 2,
+      "name": "Beginner",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 9,
+    "image_url": "https://images.unsplash.com/photo-1521790361543-f645cf042ec4?w=400&h=300&fit=crop",
+    "title": "Messy Data Whisperer",
+    "description": "Tackle chaotic CSVs and interviews while NotebookLM surfaces contradictions, quotes, and angles.",
+    "rating": 2.9,
+    "total_reviews": 98,
+    "total_hours": 3,
+    "total_lectures": 28,
+    "current_price": 159000,
+    "original_price": 399000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 2,
+    "level_id": 2,
+    "instructor": {
+      "id": 2,
+      "name": "Scott Duffy",
+      "bio": "Renowned instructor with over 1 million students worldwide",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 2,
+      "name": "Beginner",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 3,
+    "image_url": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=400&h=300&fit=crop",
+    "title": "Signal Scout Bootcamp",
+    "description": "Track weak signals across PDFs, slides, and transcripts while NotebookLM auto-synthesizes highlights.",
+    "rating": 4.2,
+    "total_reviews": 312,
+    "total_hours": 1.8,
+    "total_lectures": 22,
+    "current_price": 189000,
+    "original_price": 379000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 3,
+    "level_id": 2,
+    "instructor": {
+      "id": 3,
+      "name": "Tracey Barron",
+      "bio": "Specialist in artificial intelligence and content creation",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 2,
+      "name": "Beginner",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 2,
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop",
+    "title": "Gemini Data Weaver Essentials",
+    "description": "Learn to stitch together personal knowledge bases with NotebookLM recipes, tags, and retrieval cues.",
+    "rating": 3.8,
+    "total_reviews": 287,
+    "total_hours": 2.5,
+    "total_lectures": 27,
+    "current_price": 159000,
+    "original_price": 349000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 2,
+    "level_id": 2,
+    "instructor": {
+      "id": 2,
+      "name": "Scott Duffy",
+      "bio": "Renowned instructor with over 1 million students worldwide",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 2,
+      "name": "Beginner",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 25,
+    "image_url": "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=400&h=300&fit=crop",
+    "title": "Gem Brief Sprint Camp",
+    "description": "Blend NotebookLM and Gemini to create briefing gems, war rooms, and launch trackers.",
+    "rating": 4.6,
+    "total_reviews": 278,
+    "total_hours": 4.9,
+    "total_lectures": 42,
+    "current_price": 249000,
+    "original_price": 539000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 6,
+    "level_id": 3,
+    "instructor": {
+      "id": 6,
+      "name": "Anton Voroniuk",
+      "bio": "Productivity and AI research specialist",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 23,
+    "image_url": "https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?w=400&h=300&fit=crop",
+    "title": "NotebookLM Research Ops Guild",
+    "description": "Ops leaders standardize evidence packs, QA workflows, and delivery SLAs with NotebookLM.",
+    "rating": 4.1,
+    "total_reviews": 354,
+    "total_hours": 6.2,
+    "total_lectures": 50,
+    "current_price": 269000,
+    "original_price": 559000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 1,
+    "level_id": 3,
+    "instructor": {
+      "id": 1,
+      "name": "Yash Thakker",
+      "bio": "Expert in AI-powered research and document analysis",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 20,
+    "image_url": "https://images.unsplash.com/photo-1484981138541-3d074aa97716?w=400&h=300&fit=crop",
+    "title": "Capture Loop Accelerator",
+    "description": "Close the loop between interviews, research packs, and decision logs powered by NotebookLM.",
+    "rating": 3.9,
+    "total_reviews": 267,
+    "total_hours": 4.4,
+    "total_lectures": 40,
+    "current_price": 209000,
+    "original_price": 459000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 2,
+    "level_id": 3,
+    "instructor": {
+      "id": 2,
+      "name": "Scott Duffy",
+      "bio": "Renowned instructor with over 1 million students worldwide",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 13,
+    "image_url": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=300&fit=crop",
+    "title": "Ops Sprint Blueprint",
+    "description": "Short, high-intensity adoption sprints that wire NotebookLM into daily standups and ops reviews.",
+    "rating": 3.7,
+    "total_reviews": 187,
+    "total_hours": 1.4,
+    "total_lectures": 16,
+    "current_price": 149000,
+    "original_price": 329000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 3,
+    "level_id": 3,
+    "instructor": {
+      "id": 3,
+      "name": "Tracey Barron",
+      "bio": "Specialist in artificial intelligence and content creation",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 11,
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+    "title": "Knowledge Loom Automation",
+    "description": "Automate evergreen knowledge hubs by syncing NotebookLM notes, tags, approvals, and release logs.",
+    "rating": 3.2,
+    "total_reviews": 143,
+    "total_hours": 2.7,
+    "total_lectures": 24,
+    "current_price": 189000,
+    "original_price": 449000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 5,
+    "level_id": 3,
+    "instructor": {
+      "id": 5,
+      "name": "Gopaluni Sai Karthik",
+      "bio": "Google NotebookLM and AI tools expert",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 10,
+    "image_url": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?w=400&h=300&fit=crop",
+    "title": "Narrative Frequency Lab",
+    "description": "Transform research packs into serialized podcasts, shorts, and audiograms with AI-assisted drafts.",
+    "rating": 4.4,
+    "total_reviews": 256,
+    "total_hours": 4.8,
+    "total_lectures": 37,
+    "current_price": 219000,
+    "original_price": 519000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 4,
+    "level_id": 3,
+    "instructor": {
+      "id": 4,
+      "name": "DFA Course Academy",
+      "bio": "Professional course creation academy",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 8,
+    "image_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop",
+    "title": "Research Reactor 48H",
+    "description": "Two-day sprint that teaches batching, clustering, and storyboard exports directly from NotebookLM.",
+    "rating": 4.3,
+    "total_reviews": 412,
+    "total_hours": 6.5,
+    "total_lectures": 52,
+    "current_price": 249000,
+    "original_price": 559000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 1,
+    "level_id": 3,
+    "instructor": {
+      "id": 1,
+      "name": "Yash Thakker",
+      "bio": "Expert in AI-powered research and document analysis",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 3,
+      "name": "Intermediate",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 27,
+    "image_url": "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=400&h=300&fit=crop",
+    "title": "Signal Mesh Studio",
+    "description": "Route multi-team questions through NotebookLM meshes that surface owners, facts, and decisions.",
+    "rating": 4,
+    "total_reviews": 187,
+    "total_hours": 5.8,
+    "total_lectures": 47,
+    "current_price": 289000,
+    "original_price": 599000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 3,
+    "level_id": 4,
+    "instructor": {
+      "id": 3,
+      "name": "Tracey Barron",
+      "bio": "Specialist in artificial intelligence and content creation",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 4,
+      "name": "Advanced",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 21,
+    "image_url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=400&h=300&fit=crop",
+    "title": "NotebookLM Policy Lab",
+    "description": "Draft compliant policies, board updates, and audit packets using AI fact-check rails.",
+    "rating": 4.7,
+    "total_reviews": 321,
+    "total_hours": 5.3,
+    "total_lectures": 44,
+    "current_price": 299000,
+    "original_price": 649000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 4,
+    "level_id": 4,
+    "instructor": {
+      "id": 4,
+      "name": "DFA Course Academy",
+      "bio": "Professional course creation academy",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 4,
+      "name": "Advanced",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 18,
+    "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop",
+    "title": "NotebookLM Venture Studio",
+    "description": "Prototype investor-ready dossiers mixing financial models, transcripts, and AI briefs.",
+    "rating": 4.4,
+    "total_reviews": 188,
+    "total_hours": 6.8,
+    "total_lectures": 49,
+    "current_price": 319000,
+    "original_price": 679000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 5,
+    "level_id": 4,
+    "instructor": {
+      "id": 5,
+      "name": "Gopaluni Sai Karthik",
+      "bio": "Google NotebookLM and AI tools expert",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 4,
+      "name": "Advanced",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 17,
+    "image_url": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?w=400&h=300&fit=crop",
+    "title": "Compliance Signal Grid",
+    "description": "Design safe, auditable NotebookLM programs with review trails, redaction policies, and drift monitors.",
+    "rating": 4.8,
+    "total_reviews": 231,
+    "total_hours": 4.2,
+    "total_lectures": 38,
+    "current_price": 329000,
+    "original_price": 689000,
+    "is_bestseller": true,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 6,
+    "level_id": 4,
+    "instructor": {
+      "id": 6,
+      "name": "Anton Voroniuk",
+      "bio": "Productivity and AI research specialist",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 4,
+      "name": "Advanced",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  },
+  {
+    "id": 14,
+    "image_url": "https://images.unsplash.com/photo-1485217988980-11786ced9454?w=400&h=300&fit=crop",
+    "title": "Data Ledger Residency",
+    "description": "Investigate public datasets, trace sourcing chains, and ship NotebookLM-powered multimedia stories.",
+    "rating": 4.5,
+    "total_reviews": 402,
+    "total_hours": 6.1,
+    "total_lectures": 54,
+    "current_price": 289000,
+    "original_price": 639000,
+    "is_bestseller": false,
+    "createdAt": "2025-11-19T09:36:44.595Z",
+    "updatedAt": "2025-11-19T09:36:44.595Z",
+    "instructor_id": 2,
+    "level_id": 4,
+    "instructor": {
+      "id": 2,
+      "name": "Scott Duffy",
+      "bio": "Renowned instructor with over 1 million students worldwide",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    },
+    "level": {
+      "id": 4,
+      "name": "Advanced",
+      "createdAt": "2025-11-19T09:36:44.595Z",
+      "updatedAt": "2025-11-19T09:36:44.595Z"
+    }
+  }
+]
